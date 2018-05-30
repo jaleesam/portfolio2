@@ -1,0 +1,38 @@
+#page1   {
+    background: url("assets/interior-2591368_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    
+}
+
+.name-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 10%;
+    opacity: 0;
+    color: #F0A3BE;
+    animation-name: fadeIn;
+    animation-delay: 2.5s;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+  }
+
+  #page2{
+    background: url("assets/portfoliobackground2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #welcome{
+      background-color: beige;
+      opacity: 0.6;
+      border-color: gainsboro;
+      height: 150px;
+      width: 500px;
+      color:rgb(66, 66, 66);
+  }

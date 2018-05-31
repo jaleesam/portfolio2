@@ -11,13 +11,29 @@
 
 .name-text {
     font-size: 3.4rem;
-    position: absolute;
-    top: 10.5rem;
-    left: 10%;
+    text-align: center;
+    position: relative;               
+    top: 50%;                         
+    transform: translate(0, -50%);
+    top: 17.5rem;
     opacity: 0;
     color: #F0A3BE;
     animation-name: fadeIn;
     animation-delay: 2.5s;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+  }
+
+  .subtext {
+    text-align: center;
+    position: relative;               
+    top: 50%;                         
+    transform: translate(0, -50%);
+    top: 19.5rem;
+    opacity: 0;
+    color: #F0A3BE;
+    animation-name: fadeIn;
+    animation-delay: 5.0s;
     animation-duration: 9s;
     animation-fill-mode: forwards;
   }
@@ -29,10 +45,18 @@
   }
 
   #welcome{
-      background-color: beige;
+      background-color: gainsboro;
       opacity: 0.6;
-      border-color: gainsboro;
-      height: 150px;
+      border-color: rgb(145, 142, 142);
+      height: 200px;
       width: 500px;
       color:rgb(66, 66, 66);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 30px;
+
+
   }

@@ -10,7 +10,8 @@
 }
 
 .name-text {
-    font-size: 3.4rem;
+    font-size: 80px;
+    font-family: 'Euphoria Script', cursive;
     text-align: center;
     position: relative;               
     top: 50%;                         
@@ -26,7 +27,9 @@
 
   .subtext {
     text-align: center;
-    position: relative;               
+    position: relative; 
+    font-size: 20px;
+              
     top: 50%;                         
     transform: translate(0, -50%);
     top: 19.5rem;
@@ -37,11 +40,46 @@
     animation-duration: 9s;
     animation-fill-mode: forwards;
   }
+  #subtext1{
+    float: initial;
+  }
+  #button {
+    width:100px;
+    height:20px;
+    text-align: center;
+    position: relative;
+    background-color: #F0A3BE;
+    background-repeat:no-repeat;
+    transform: translate(0, -50%);
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    animation-delay: 20s;       
+    animation:fadeIn 10s;
+    -moz-animation:myfirst 10s; /* Firefox */
+    -webkit-animation:myfirst   10s; /* Safari and Chrome */
+    animation-fill-mode: forwards;
+}
 
+@-moz-keyframes myfirst /* Firefox */ {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */ {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  
+}
+ 
   #page2{
     background: url("assets/portfoliobackground2.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
+  }
+  h1{
+    font-family: 'Euphoria Script', cursive; 
   }
 
   #welcome{

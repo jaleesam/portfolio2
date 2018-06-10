@@ -78,6 +78,7 @@
  
   #page2{
     /* background: url("assets/portfoliobackground2.jpeg"); */
+    background-color: white;
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -93,7 +94,7 @@
   #welcome{
     background-color: rgb(216, 139, 166);
     /* opacity: 0.6; */
-    border-color:rgb(233, 42, 109);
+    border-color:rgb(233, 42, 109);   
     height: 200px;
     width: 500px;
     color:rgb(66, 66, 66);
@@ -103,6 +104,69 @@
     transform: translate(-50%, -50%);
     position: absolute;
     padding: 30px;
-
-
   }
+
+  .page3{
+    background-color: whitesmoke; 
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 12px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  box-sizing: border-box;
+  background-color: white;
+  color: rgb(233, 42, 109);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+      width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+}

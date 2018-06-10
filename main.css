@@ -1,5 +1,6 @@
 #page1   {
-    background: url("assets/interior-2591368_1280.jpg");
+    /* background: url("assets/interior-2591368_1280.png"); */
+    background-color: white;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -18,7 +19,7 @@
     transform: translate(0, -50%);
     top: 17.5rem;
     opacity: 0;
-    color: rgb(58, 56, 56);
+    color: rgb(233, 42, 109);
     animation-name: fadeIn;
     animation-delay: 2.5s;
     animation-duration: 9s;
@@ -29,12 +30,12 @@
     text-align: center;
     position: relative; 
     font-size: 20px;
-              
+    font-family: 'Open Sans Condensed', sans-serif;         
     top: 50%;                         
     transform: translate(0, -50%);
     top: 19.5rem;
     opacity: 0;
-    color: #F0A3BE;
+    color: rgb(238, 107, 153);
     animation-name: fadeIn;
     animation-delay: 5.0s;
     animation-duration: 9s;
@@ -47,8 +48,10 @@
     width:100px;
     height:20px;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
     position: relative;
-    background-color: #F0A3BE;
+    margin: 0 auto;
+    background-color: rgb(238, 107, 153);;
     background-repeat:no-repeat;
     transform: translate(0, -50%);
     border: none;
@@ -74,21 +77,26 @@
 }
  
   #page2{
-    background: url("assets/portfoliobackground2.jpeg");
+    /* background: url("assets/portfoliobackground2.jpeg"); */
     background-repeat: no-repeat;
     background-size: 100%;
   }
   h1{
     font-family: 'Euphoria Script', cursive; 
+    color:rgb(233, 22, 96);
+  }
+
+  p{
+    font-family: 'Open Sans Condensed', sans-serif;
   }
 
   #welcome{
-      background-color: gainsboro;
-      opacity: 0.6;
-      border-color: rgb(145, 142, 142);
-      height: 200px;
-      width: 500px;
-      color:rgb(66, 66, 66);
+    background-color: rgb(216, 139, 166);
+    /* opacity: 0.6; */
+    border-color:rgb(233, 42, 109);
+    height: 200px;
+    width: 500px;
+    color:rgb(66, 66, 66);
     top: 50%;
     left: 50%;
     margin-right: -50%;

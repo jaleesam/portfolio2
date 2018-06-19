@@ -44,6 +44,24 @@
   #subtext1{
     float: initial;
   }
+  a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: rgba(29, 2, 29, 0.801);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(58, 5, 31);
+}
+
+/* selected link */
+a:active {
+    color: rgb(153, 0, 255);
+}
   #button {
     width:100px;
     height:20px;
@@ -79,9 +97,43 @@
   #page2{
     /* background: url("assets/portfoliobackground2.jpeg"); */
     background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+    max-width: 1000px;
+    margin: auto;
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(233, 22, 96);
+}
+
+.jaleesa {
+  font-family: 'Euphoria Script', cursive; 
+  font-size: 20px;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(233, 42, 109);
+}
+
+.active {
+    background-color:rgb(214, 107, 145)
+}
   h1{
     font-family: 'Euphoria Script', cursive; 
     color:rgb(233, 22, 96);
@@ -92,19 +144,24 @@
   }
 
   #welcome{
-    background-color: rgb(216, 139, 166);
+    background-color: rgba(216, 139, 166, 0.226);
     /* opacity: 0.6; */
+    font-size: 24px;
     border-color:rgb(233, 42, 109);   
-    height: 200px;
+    height: 375px;
     width: 500px;
-    color:rgb(66, 66, 66);
-    top: 50%;
+    color: rgb(39, 35, 35);
+    top: 60%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 30px;
+    padding: 45px;
   }
+  div img {
+    display: block;
+   
+ }
 
   .page3{
     background-color: whitesmoke; 
@@ -152,7 +209,7 @@ img {
 /* Content */
 .content {
   box-sizing: border-box;
-  background-color: white;
+  background-color: rgba(216, 139, 166, 0.226);
   color: rgb(233, 42, 109);
   padding: 10px;
 }
